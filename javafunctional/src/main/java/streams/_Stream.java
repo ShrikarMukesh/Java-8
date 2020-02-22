@@ -17,7 +17,8 @@ public class _Stream {
                 new Person("Vijay",MALE),
                 new Person("Shiva",MALE),
                 new Person("Sharon",FEMALE),
-                new Person("Bob",PREFER_NOT_SAY)
+                new Person("Bob",PREFER_NOT_SAY),
+                new Person("Mahesh", MALE)
         );
         // peoples.stream().map(person -> person.name).mapToInt(String::length).forEach(System.out::println);
         Predicate<Person> personPredicate = person -> PREFER_NOT_SAY.equals(person.gender);
