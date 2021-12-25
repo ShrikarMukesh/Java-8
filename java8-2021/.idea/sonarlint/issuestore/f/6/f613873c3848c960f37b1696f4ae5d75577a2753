@@ -1,0 +1,9 @@
+
+R
+java:S1854"5Remove this useless assignment to local variable "a".(‘Ùºñ8¸ÐöëÐ/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(å·•Ÿûÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(ºÍÁ8¾ÐöëÐ/
+C
+java:S1481"&Remove this unused "a" local variable.(‘Ùºñ8ÄÐöëÐ/
+N
+java:S1144"1Remove this unused private "findSubArray" method.(ˆî»à8ÅÐöëÐ/

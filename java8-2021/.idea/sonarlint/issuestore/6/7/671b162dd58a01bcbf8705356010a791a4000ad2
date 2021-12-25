@@ -1,0 +1,14 @@
+
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ
+Q
+java:S1854"6Remove this useless assignment to local variable "sb".(€ê±Õúÿÿÿÿ
+7
+java:S1116"Remove this empty statement.(ğ¶×ûÿÿÿÿ
+6
+java:S2129" Remove this "String" constructor(ŒâİŒ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(­ËÖşÿÿÿÿ
+B
+java:S1481"'Remove this unused "sb" local variable.(€ê±Õúÿÿÿÿ
