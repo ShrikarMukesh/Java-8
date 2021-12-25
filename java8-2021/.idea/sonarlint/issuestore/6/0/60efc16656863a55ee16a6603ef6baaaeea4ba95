@@ -1,0 +1,8 @@
+
+S
+java:S3655"6Call "flatMap.isPresent()" before accessing the value.(ÉùúŒ8Íµ„/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Äá™†øÿÿÿÿ8Íµ„/
+R
+java:S3655"5Call "filter.isPresent()" before accessing the value.(¨ÁÚ8Íµ„/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÉùúŒ8Íµ„/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨ÁÚ8Íµ„/
