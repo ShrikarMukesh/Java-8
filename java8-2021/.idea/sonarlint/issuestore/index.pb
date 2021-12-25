@@ -55,3 +55,11 @@ X
 (src/sigletondesignpatterns/Employee.java,9/b/9b2992716624d4cf9dfac0fed697422f3c9da619
 B
 src/demo/Test.java,9/0/90574986236483a5ff0e60122ed52e39050edd01
+E
+src/streams/Demo.java,0/3/03a1261749cef970082b439a7e6698e957bf33df
+]
+-src/sigletondesignpatterns/StringReverse.java,5/2/5222427396ce68d1276d30abc6dfebd3c85fd369
+H
+src/demo/EvenAndOdd.java,6/5/6565eb9df4e1761a2dfeddc040337fcef13f4125
+F
+src/demo/SUbArray.java,f/6/f613873c3848c960f37b1696f4ae5d75577a2753

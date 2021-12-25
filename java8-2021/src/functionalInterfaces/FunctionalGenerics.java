@@ -1,4 +1,4 @@
-package streams;
+package functionalInterfaces;
 
 @FunctionalInterface
 interface FunctionalGeneric<T,R>{

@@ -1,0 +1,22 @@
+
+U
+java:S2134"@Don't extend "Thread", since the "run" method is not overridden.(åÝ§)
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚é€Þûÿÿÿÿ
+V
+java:S2134"@Don't extend "Thread", since the "run" method is not overridden.(§×«¯
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚é€Þûÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(»ì²Šþÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "e".(€Ô½ßûÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(“¹‹‘
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚é€Þûÿÿÿÿ
+“
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78ˆÿŒëÐ/
+}
+java:S1217$"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(ÕÃ•¾8ûÂ€ëÐ/
+‚
+java:S1217%"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(•ÅÚ…ûÿÿÿÿ8÷ö‚ëÐ/
+A
+java:S1481"&Remove this unused "e" local variable.(€Ô½ßûÿÿÿÿ
