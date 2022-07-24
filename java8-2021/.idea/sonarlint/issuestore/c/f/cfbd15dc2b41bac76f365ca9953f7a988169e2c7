@@ -1,9 +1,0 @@
-
-q
-java:S4276"TRefactor this code to use the more specialised Functional Interface 'DoubleSupplier'(×£Î—8¯ŞŒãŒ/
-B
-java:S2129" Remove this "String" constructor(³ºıîøÿÿÿÿ8¯ŞŒãŒ/
-Z	java:S106
-"9Replace this use of System.out or System.err by a logger.(µĞîöüÿÿÿÿ8÷Á‹ãŒ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(˜Ç‘üÿÿÿÿ8÷Á‹ãŒ/
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï„Àß

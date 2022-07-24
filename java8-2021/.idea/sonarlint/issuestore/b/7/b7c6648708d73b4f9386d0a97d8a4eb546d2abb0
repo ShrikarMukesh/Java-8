@@ -1,18 +1,0 @@
-
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‡¯±’ùÿÿÿÿ8—“ìƒ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Äá™†øÿÿÿÿ8…›îƒ/
-a
-java:S1854&"?Remove this useless assignment to local variable "orElseThrow".(º´¸¤úÿÿÿÿ8…›îƒ/
-I
-java:S1612(",Replace this lambda with a method reference.(òÆúÓ8â’„/
-N
-java:S1612&",Replace this lambda with a method reference.(º´¸¤úÿÿÿÿ8…›îƒ/
-L
-java:S2201("/The return value of "orElseThrow" must be used.(òÆúÓ8â’„/
-a
-java:S2583"DChange this condition so that it does not always evaluate to "false"(½ÍÇŞ8—“ìƒ/
-X	java:S125"<This block of commented-out lines of code should be removed.(›Ó€•8§Ëéƒ/
-Z	java:S106""9Replace this use of System.out or System.err by a logger.(Šìú¯ÿÿÿÿÿ8…›îƒ/
-R
-java:S1481&"0Remove this unused "orElseThrow" local variable.(º´¸¤úÿÿÿÿ8…›îƒ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(†ÅóØûÿÿÿÿ8–ğäƒ/

@@ -1,7 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ
-i
-java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(É‘ô·
-G
-java:S1612",Replace this lambda with a method reference.(ÚÏÞ‰ÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÏÞ‰ÿÿÿÿÿ

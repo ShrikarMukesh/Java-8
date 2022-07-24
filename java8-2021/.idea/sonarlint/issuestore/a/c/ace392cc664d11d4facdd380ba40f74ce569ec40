@@ -1,18 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÞ‚Ø
-B
-java:S1612",Replace this lambda with a method reference.(„°ŽË
-N	java:S106"9Replace this use of System.out or System.err by a logger.(„°ŽË
-G
-java:S1612",Replace this lambda with a method reference.(”îü”úÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(”îü”úÿÿÿÿ
-P	java:S125"<This block of commented-out lines of code should be removed.(¤Ã¬y
-q
-java:S4276,"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(¤ô¦ùþÿÿÿÿ
-Q	java:S125("<This block of commented-out lines of code should be removed.(×‚½Ä
-V	java:S125*"<This block of commented-out lines of code should be removed.(¶é¸üÿÿÿÿ
-w
-java:S4276-"\Refactor this code to use the more specialised Functional Interface 'UnaryOperator<Integer>'(×Ð ôþÿÿÿÿ
-q
-java:S4276/"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(Æ£ð†ûÿÿÿÿ
-N	java:S1060"9Replace this use of System.out or System.err by a logger.(µßþ¬
