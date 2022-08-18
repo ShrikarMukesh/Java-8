@@ -24,9 +24,28 @@ public class StreamsExamples {
                 .collect(Collectors.toMap(Student::getName, Student::getActivities));
 
         for(Map.Entry<String, List<String>> stringListEntry : nameAndActivities.entrySet()){
-            System.out.println(stringListEntry.getKey() + " " +
-                    stringListEntry.getValue());
+            //System.out.println(stringListEntry.getKey() + " " + stringListEntry.getValue());
         }
+        //Debbing stream api
+        Map<String, List<String>> nameAndActivities2 =  StudentDataBase.
+                getAllStudents()
+                .stream()
+//                .peek((student -> {
+//                    System.out.println(student);
+//
+//                }))
+                .filter(studentGradePredicate)
+                .peek((student -> {
+                    System.out.println(student);
 
+                }))
+                .filter(studentGpaPredicate)
+                .peek((student -> {
+                    System.out.println("*******************");
+                    System.out.println("2nd filetr" + student);
+
+                }))
+                .collect(Collectors.toMap(Student::getName, Student::getActivities));
+        //System.out.println(nameAndActivities2);
     }
 }

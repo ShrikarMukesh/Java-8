@@ -7,6 +7,8 @@
     <modules>
         <module>basic-concepts</module>
         <module>streams</module>
+        <module>optional-class</module>
+        <module>date-time-api</module>
     </modules>
 
     <groupId>org.elevens</groupId>
