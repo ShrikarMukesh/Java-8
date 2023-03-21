@@ -26,10 +26,11 @@ public class Employee {
     private String address;
     private LocalDate dob;
     private Enum gender;
+
     public static List<Employee> getEmployees(){
          return Arrays.asList(
                 new Employee(6,"Yash", "Chopra", 25,"HR",10000,"Bangalore", LocalDate.of(1994,05,19),MALE),
-                new Employee(2,"Aman", "Sharma", 28,"Dev",20000,"Kochi",LocalDate.of(2000,05,20),MALE),
+                new Employee(2,"Suman", "Sharma", 28,"Dev",20000,"Kochi",LocalDate.of(2000,05,20),MALE),
                 new Employee(3,"Aruna", "Yaadav", 52,"Testing",30000,"Mysore",LocalDate.of(2022,12,31),FEMALE),
                 new Employee(5,"David", "Kameron", 19 ,"Dev", 15000, "Bangalore", LocalDate.of(2000,05,19),MALE),
                 new Employee(4,"James", "Hedge", 72,"HR",12000,"Mysore",LocalDate.of(1994,05,19),MALE),

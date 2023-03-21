@@ -26,7 +26,7 @@ public class StreamsExamples {
         for(Map.Entry<String, List<String>> stringListEntry : nameAndActivities.entrySet()){
             //System.out.println(stringListEntry.getKey() + " " + stringListEntry.getValue());
         }
-        //Debbing stream api
+        //debugging stream api
         Map<String, List<String>> nameAndActivities2 =  StudentDataBase.
                 getAllStudents()
                 .stream()

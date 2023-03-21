@@ -9,6 +9,7 @@
         <module>streams</module>
         <module>optional-class</module>
         <module>date-time-api</module>
+        <module>java-hacks</module>
     </modules>
 
     <groupId>org.elevens</groupId>
