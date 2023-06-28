@@ -10,6 +10,7 @@ import static java.util.stream.Collectors.toSet;
 
 public class StreamMapExample {
     public static List<String> namesList(){
+
         return StudentDataBase.getAllStudents()
                 .stream()
                 .map(Student::getName)
@@ -26,5 +27,8 @@ public class StreamMapExample {
     public static void main(String[] args) {
         System.out.println(namesList());
         System.out.println(setOfNames());
+
+        List<Student> students = StudentDataBase.getAllStudents();
+        students.stream().forEach(student -> student.getGpa());
     }
 }
