@@ -10,6 +10,7 @@
         <module>optional-class</module>
         <module>date-time-api</module>
         <module>java-hacks</module>
+        <module>leetcode</module>
     </modules>
 
     <groupId>org.elevens</groupId>

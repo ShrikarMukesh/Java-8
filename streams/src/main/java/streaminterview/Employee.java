@@ -22,10 +22,10 @@ public class Employee {
     private List<String> skills;
 
     public static List<Employee> getSampleData() {
-        List<Employee> employees = Arrays.asList(
-                new Employee(1, "John Doe", 30, "IT", 5000, true, Arrays.asList("Java", "SQL")),
-                new Employee(2, "Jane Smith", 35, "HR", 4500, true, Arrays.asList("Communication", "Problem Solving")),
-                new Employee(3, "Mike Johnson", 28, "Finance", 5500, true, Arrays.asList("Accounting", "Excel")),
+         List<Employee> employees = Arrays.asList(
+                new Employee(1, "John Doe", 30, "IT", 90300, true, Arrays.asList("Java", "SQL")),
+                new Employee(1, "Jane Smith", 35, "HR", 85300, true, Arrays.asList("Communication", "Problem Solving")),
+                new Employee(3, "Mike Johnson", 28, "Finance", 85300, true, Arrays.asList("Accounting", "Excel")),
                 new Employee(4, "Emily Davis", 32, "Sales", 4000, false, Arrays.asList("Negotiation", "Presentation")),
                 new Employee(5, "David Wilson", 27, "IT", 4800, true, Arrays.asList("Python", "Database")),
                 new Employee(6, "Sarah Brown", 33, "Finance", 5200, true, Arrays.asList("Financial Analysis", "Budgeting")),
