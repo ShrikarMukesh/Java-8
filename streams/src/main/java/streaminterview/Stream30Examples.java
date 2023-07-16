@@ -6,7 +6,6 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Stream30Examples {
     public static void main(String[] args) {
@@ -18,10 +17,16 @@ public class Stream30Examples {
         System.out.println(employees30);
 
         //Mapping employees to their names:
-        List<String> names = employees.stream().map(Employee::getName).collect(Collectors.toList());
+        List<String> names = employees
+                .stream()
+                .map(Employee::getName)
+                .collect(Collectors.toList());
 
         //Summing the salaries of all employees:
-        long salarySum = employees.stream().mapToLong(Employee::getSalary).sum();
+        long salarySum = employees
+                .stream()
+                .mapToLong(Employee::getSalary)
+                .sum();
         System.out.println("Salary Sum " + salarySum);
         System.out.println(" Counting the number of employees:"+employees.stream().count());
 
@@ -34,6 +39,7 @@ public class Stream30Examples {
                 .map(Employee::getSalary)
                 .max(Integer::compareTo);
         System.out.println(maxSalary.get());
+
 
         //Find HRs
         List<Employee> hrs = employees.stream()
