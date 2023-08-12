@@ -11,6 +11,7 @@
         <module>date-time-api</module>
         <module>java-hacks</module>
         <module>leetcode</module>
+        <module>interview</module>
     </modules>
 
     <groupId>org.elevens</groupId>
