@@ -47,7 +47,8 @@ public class Stream30Examples {
 
         //Java Skilled Employees
         List<Employee> javaEmployees = employees.stream()
-                .filter(employee -> employee.getSkills().contains("Java")).collect(Collectors.toList());
+                .filter(employee ->
+                        employee.getSkills().contains("Java")).collect(Collectors.toList());
         System.out.println(javaEmployees);
 
         //Sorting employees by name:

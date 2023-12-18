@@ -5,7 +5,10 @@ import data.StudentDataBase;
 
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
+import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.toSet;
 
 public class StreamMapExample {
@@ -30,5 +33,10 @@ public class StreamMapExample {
 
         List<Student> students = StudentDataBase.getAllStudents();
         students.stream().forEach(student -> student.getGpa());
+
+
+
+        List<Student> req = StudentDataBase.getAllStudents();
+
     }
 }

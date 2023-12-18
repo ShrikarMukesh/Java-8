@@ -20,7 +20,6 @@ public class StudentDataBase {
         return Optional.of(student);
     }
 
-
     /**
      * Total of 6 students in the database.
      * @return
