@@ -1,4 +1,4 @@
-package Testing;
+package testing;
 
 public class Test6 {
     public void print(){

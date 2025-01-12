@@ -2,25 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Java-8</artifactId>
+        <groupId>org.elevens</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <modules>
-        <module>basic-concepts</module>
-        <module>2025-java8-practice</module>
-        <module>streams</module>
-        <module>optional-class</module>
-        <module>date-time-api</module>
-        <module>java-hacks</module>
-        <module>leetcode</module>
-        <module>interview</module>
-    </modules>
+    <artifactId>2025-java8-practice</artifactId>
 
-    <groupId>org.elevens</groupId>
-    <artifactId>Java-8</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -41,5 +38,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>

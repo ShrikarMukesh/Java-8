@@ -1,6 +1,4 @@
-package Testing;
-
-import java.util.HashMap;
+package testing;
 
 public class Test5 {
     public static void main(String[] args) {
